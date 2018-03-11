@@ -19,9 +19,9 @@
     "@xhubio/table-import-spreadsheet-matrix": "^1.0.5",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "express": "~4.15.5",
-    "fs": "0.0.1-security",
+    "debug": "~3.1.0",
+    "express": "~4.16.2",
+    "fs": "0.0.2",
     "jade": "~1.11.0",
     "morgan": "~1.9.0",
     "multer": "^1.3.0",
@@ -55,6 +55,6 @@
     "jsonfile": "^4.0.0",
     "prettier": "^1.9.2",
     "regenerator-runtime": "^0.11.1",
-    "semantic-release": "^12.4.1"
+    "semantic-release": "^15.0.2"
   }
 }
