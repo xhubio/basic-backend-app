@@ -25,7 +25,7 @@ app.get('/download', function(req, res) {
   const exporter = new ExporterDecisionTable()
   exporter.addWorksheet(tableModel)
 
-  XLSX.stream.to_csv(tableModel).pipe(res)
+  //XLSX.stream.to_csv(tableModel).pipe(res)
 
   const writePromise = exporter.write(exportFileName)
   res.download(writePromise)
