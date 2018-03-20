@@ -6,6 +6,7 @@ block content
     form(action="/", method="post" enctype="multipart/form-data")
       input(id="input-b1" name="xlsFile" type="file" class="file")
       button.btn.btn-large(type="submit") Upload
+      a(href="/download") Download
 
   p.
     #{result}
